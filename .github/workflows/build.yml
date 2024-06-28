@@ -1,4 +1,8 @@
 on:
+# Add a button to trigger the workflow
+  repository_dispatch:
+  workflow_dispatch:
+  
   watch:
     types: started
 jobs:
